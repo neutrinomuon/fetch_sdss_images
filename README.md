@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/PyIntegral.png" alt="PyIntegral" width="120px">
 </p>
 
-### PyIntegral
+### fetch_sdss_images
 
 ####  A Fortran legacy package to easy integrate numerically
 email: [antineutrinomuon@gmail.com](mailto:antineutrinomuon@gmail.com), [jean@astro.up.pt](mailto:jean@astro.up.pt)
