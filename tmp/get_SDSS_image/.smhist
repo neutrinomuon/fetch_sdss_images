@@ -1,0 +1,16 @@
+data ra_dec.txt read {x 2 y 3}
+set dx=309.152593-x  set dy=65.929612
+set d = sqrt(dx**2 + dy**2)
+data ra_dec.txt read {gal 1.s x 2 y 3}
+set dx=309.152593-x  set dy=65.929612-y  set d = sqrt(dx**2 + dy**2)
+sort {d x y gal dx dy}
+print {d x y gal dx dy}
+vecminmax x a b echo $a $b
+vecminmax y a b echo $a $b
+devcid
+lim x y bo poi x y
+!more get*
+data ra_dec.txt read {gal 1.s x 2 y 3}
+set dx= 182.0043958  -x  set dy= 39.6838389-y  set d = sqrt(dx**2 + dy**2)
+sort {d x y gal dx dy}
+print {d x y gal dx dy}
