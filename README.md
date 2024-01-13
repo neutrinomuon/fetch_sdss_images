@@ -1,5 +1,5 @@
 <p align="left">
-  <img src="https://raw.githubusercontent.com/neutrinomuon/fetch_sdss_images/main/figures/Fetch SDSS Images.png" alt="PyIntegral" width="120px">
+  <img src="https://raw.githubusercontent.com/neutrinomuon/fetch_sdss_images/main/figures/Fetch%20SDSS%20Images.png" alt="Fetch SDSS Images" width="120px">
 </p>
 
 ### fetch_sdss_images
