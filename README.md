@@ -4,20 +4,21 @@
 
 ### fetch_sdss_images
 
-####  A Fortran legacy package to easy integrate numerically
+####  A Python package for downloading SDSS images easily
 email: [antineutrinomuon@gmail.com](mailto:antineutrinomuon@gmail.com), [jean@astro.up.pt](mailto:jean@astro.up.pt)
 
 © Copyright ®
 
 J.G. - Jean Gomes
 
-last stable version: 0.0.1
+last stable version: 0.0.X
 <!-- https://zenodo.org/badge/doi/10.5281/zenodo.10433044.svg -->
-[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.10433044.svg)](https://zenodo.org/badge/doi/10.5281/zenodo.10433044.svg)
+<!-- [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.10433044.svg)](https://zenodo.org/badge/doi/10.5281/zenodo.10433044.svg) -->
 
 <hr>
 
-![My Skills](https://skillicons.dev/icons?i=python,fortran,c,numpy&theme=light)<br>
+![My Skills](https://skillicons.dev/icons?i=python,bash,numpy&theme=light)<br>
+![DJANGO](https://www.djangoproject.com/m/img/badges/djangopowered126x54.gif" border="0" alt="Powered by Django." title="Powered by Django.")<br>
 [![python3](https://img.shields.io/pypi/pyversions/PyIntegral)](https://img.shields.io/pypi/pyversions/PyIntegral)
 [![badgetlicense](https://anaconda.org/neutrinomuon/PyIntegral/badges/license.svg)](https://anaconda.org/neutrinomuon/PyIntegral/badges/license.svg)
 
