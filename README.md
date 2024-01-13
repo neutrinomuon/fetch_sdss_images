@@ -19,7 +19,7 @@ last stable version: 0.0.X
 
 ![My Skills](https://skillicons.dev/icons?i=python,bash,numpy&theme=light)<br>
 <a href="https://www.djangoproject.com">
-  <img src="https://www.djangoproject.com/m/img/badges/djangopowered126x54.gif" alt="DJANGO" width="150" height="64">
+  <img src="https://www.djangoproject.com/m/img/badges/djangopowered126x54.gif" alt="DJANGO" width="50">
 </a><br>
 <!-- [![DJANGO](https://www.djangoproject.com/m/img/badges/djangopowered126x54.gif)](https://www.djangoproject.com)<br>-->
 [![python3](https://img.shields.io/pypi/pyversions/PyIntegral)](https://img.shields.io/pypi/pyversions/PyIntegral)
