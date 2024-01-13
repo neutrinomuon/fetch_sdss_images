@@ -1,10 +1,10 @@
 <p align="left">
-  <img src="https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/Fetch SDSS Images.png" alt="PyIntegral" width="120px">
+  <img src="https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/PyIntegral.png" alt="PyIntegral" width="120px">
 </p>
 
 ### fetch_sdss_images
 
-####  A Fortran legacy package to easy integrate numerically
+####  A python code for retrieving the SDSS images
 email: [antineutrinomuon@gmail.com](mailto:antineutrinomuon@gmail.com), [jean@astro.up.pt](mailto:jean@astro.up.pt)
 
 © Copyright ®
