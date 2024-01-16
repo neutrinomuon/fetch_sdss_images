@@ -4,7 +4,7 @@
 
 ### fetch_sdss_images
 
-####  A Python package for downloading SDSS images easily
+####  A Python package for downloading SDSS images from distinct releases easily!
 email: [antineutrinomuon@gmail.com](mailto:antineutrinomuon@gmail.com), [jean@astro.up.pt](mailto:jean@astro.up.pt)
 
 © Copyright ®
@@ -36,42 +36,21 @@ last stable version: 0.0.X
 #### <b>RESUME</b>
 
 <img src="https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/PyIntegral.png" width=120px>
-Integrate arrays, functions numerically using different
-methods. Original Fortran 2003+ routines date back to 2003-2004. Read the
-<a href='https://github.com/neutrinomuon/PyIntegral/blob/main/LICENSE.txt'>LICENSE.txt</a> file. Definite integrals are mathematical calculations that allow
-us to find the area under a curve between two defined points on the x-axis. In
-other words, they give us the total accumulated value of a function over an
-interval. Definite integrals are used in various fields, such as physics,
-engineering, and finance, to solve real-world problems, such as calculating
-the total distance travelled by a moving object or the total profit of a
-company over a certain period.
-
-There are various techniques for computing definite integrals, including
-analytical methods (e.g., antiderivatives) and numerical methods (e.g., using
-quadrature or Monte Carlo). The choice of method depends on the type of
-function being integrated, the desired accuracy, and the computational
-resources available. Some commonly used numerical integration techniques
-include the trapezoidal rule, Simpson's rule, and Gaussian quadrature.
-
-In computer programming, definite integrals can be calculated using
-specialized libraries and routines that provide numerical integration
-algorithms. These routines typically take as input the function to be
-integrated, the interval over which to integrate, and the desired level of
-accuracy. The output of the routine is an approximation of the definite
-integral.
+Download images from SDSS. Read the
+<a href='https://github.com/neutrinomuon/fetch_sdss_images/blob/main/LICENSE.txt'>LICENSE.txt</a> file.
 
 $\color{#58A6FF}\textsf{\Large\&#x24D8;\kern{0.2cm}\normalsize Note}$
 
 <!-- This does not work on github
-![Light Mode Icon](https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/Education,_Studying,_University,_Alumni_-_icon.png)
-![Dark Mode Icon](https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/Education_black_background-removebg.png)
-This project was also created with a focus on educational purposes.
+![Light Mode Icon](https://raw.githubusercontent.com/neutrinomuon/fetch_sdss_images/main/figures/Education,_Studying,_University,_Alumni_-_icon.png)
+![Dark Mode Icon](https://raw.githubusercontent.com/neutrinomuon/fetch_sdss_images/main/figures/Education_black_background-removebg.png)
+This project was also created with a focus on educational purposes and it is still underdevelopment.
 -->
 
-<img src="https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/Education,_Studying,_University,_Alumni_-_icon.png#gh-light-mode-only" width="70px"><img src="https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/Education_black_background-removebg.png#gh-dark-mode-only" width="70px">This project was also created with a focus on educational purposes.
+<img src="https://raw.githubusercontent.com/neutrinomuon/fetch_sdss_images/main/figures/Education,_Studying,_University,_Alumni_-_icon.png#gh-light-mode-only" width="70px"><img src="https://raw.githubusercontent.com/neutrinomuon/fetch_sdss_images/main/figures/Education_black_background-removebg.png#gh-dark-mode-only" width="70px">This project was also created with a focus on educational purposes.
 
 
-<img src="https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/PEP8-StyleGuide.jpg" width="70px"> Now, PyIntegral has all its scripts in accordance with PEP 8 guidelines.
+<img src="https://raw.githubusercontent.com/neutrinomuon/fetch_sdss_images/main/figures/PEP8-StyleGuide.jpg" width="70px"> Now, PyIntegral has all its scripts in accordance with PEP 8 guidelines.
 
 --------------------------------------------------------------------<br>
 Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)<br>
@@ -83,7 +62,7 @@ Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)<br>
 You can easily install <a href=https://pypi.org/project/PyIntegral/>PyIntegral</a> by using pip - <a href='https://pypi.org/'>PyPI - The Python Package Index</a>:
 <pre>
 <code>
-pip install PyIntegral
+pip install fetch_sdss_images
 </code>
 </pre>
 or by using a generated conda repository <a href='https://anaconda.org/neutrinomuon/PyIntegral'>https://anaconda.org/neutrinomuon/PyIntegral</a>:
@@ -102,33 +81,10 @@ OBS.: Linux, OS-X ad Windows pre-compilations available in conda.
 You can also clone the repository and install by yourself in your machine:
 <pre>
 <code>
-git clone https://github.com/neutrinomuon/PyIntegral
+git clone https://github.com/neutrinomuon/fetch_sdss_images
 python setup.py install
 </code>
 </pre>
-
-<hr>
-
-#### <b>METHODS</b>
-
-The methods are given by Int_Type and may be summarized bellow:
-
-<table>
-<tr><td>Int_Type</td><td>Type</td><td>Description</td></tr>
-<tr><td>0<td>R</td><td>Right rectangle Integral  </td></tr>
-<tr><td>1<td>L</td><td>Left rectangle Integral   </td></tr>
-<tr><td>2<td>T</td><td>Trapezoidal rule          </td></tr>
-<tr><td>3<td>S</td><td>Simple Integral           </td></tr>
-<tr><td>4<td>M</td><td>Median rectangle Integral </td></tr>
-<tr><td>5<td>I</td><td>Simpsonregel's rule       </td></tr>
-<tr><td>6<td>G</td><td>Gauss-Legendre Quadrature </td></tr>
-
-<div align="center">
-<img src='https://github.com/neutrinomuon/PyIntegral/blob/main/figures/Example_Integration.png?raw=true' width="70%">
-</div>
-
-</table>
-
 
 <hr>
 
@@ -148,7 +104,7 @@ The main structure of the directories and files are:
 <pre>
 <code>
 #################################################
-PyIntegral
+XXXXXXX
 ├── PyIntegral
 │   ├── win-32
 │   ├── linux-armv7l
@@ -233,7 +189,7 @@ Generated with tree_colored @ 2023 - © Jean Gomes
 </code>
 </pre>
 
-PyIntegral.py is a python wrapper to the library in Fortran called
+XXXXX.py ????  is a python wrapper to the library in Fortran called
 pyintegral.flib. The Fortran directory can be compiled separately for each
 individual subroutine.
 
