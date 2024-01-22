@@ -35,7 +35,7 @@ last stable version: 0.0.X
 
 #### <b>RESUME</b>
 
-<img src="https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/NGC5750.jpg" width=120px>
+<img src="https://raw.githubusercontent.com/neutrinomuon/fetch_sdss_images/main/figures/NGC5750.jpg" width=120px>
 Download images from SDSS. Read the
 <a href='https://github.com/neutrinomuon/fetch_sdss_images/blob/main/LICENSE.txt'>LICENSE.txt</a> file.
 
