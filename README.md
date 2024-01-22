@@ -35,7 +35,7 @@ last stable version: 0.0.X
 
 #### <b>RESUME</b>
 
-<img src="https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/PyIntegral.png" width=120px>
+<img src="https://raw.githubusercontent.com/neutrinomuon/PyIntegral/main/figures/NGC5750.jpg" width=120px>
 Download images from SDSS. Read the
 <a href='https://github.com/neutrinomuon/fetch_sdss_images/blob/main/LICENSE.txt'>LICENSE.txt</a> file.
 
@@ -73,7 +73,7 @@ or by using a generated conda repository <a href='https://anaconda.org/neutrinom
 )](https://anaconda.org/neutrinomuon/PyIntegral/badges/platforms.svg)
 <pre>
 <code>
-conda install -c neutrinomuon PyIntegral
+conda install -c neutrinomuon fetch_sdss_images
 </code>
 </pre>
 OBS.: Linux, OS-X ad Windows pre-compilations available in conda.
@@ -90,10 +90,10 @@ python setup.py install
 
 #### <b>REFERENCES</b>
 
-<ol><il> William H. Press, Saul A. Teukolsky, William T. Vetterling, and Brian
+<!-- <ol><il> William H. Press, Saul A. Teukolsky, William T. Vetterling, and Brian
 P. Flannery. Numerical Recipes: The Art of Scientific Computing. William ISBN:
 978-0521880688. Link: <a
-href='https://numerical.recipes/'>https://numerical.recipes/</a></il> </ol>
+href='https://numerical.recipes/'>https://numerical.recipes/</a></il> </ol> -->
 
 <hr>
 
