@@ -27,8 +27,12 @@ last stable version: 0.0.1
 
 <hr>
 
+<center>
+Example of a galaxy retrieved from the SDSS API for Data Release 18: NGC 5750
+</center>
+
 <div align="center">
-<img src='https://github.com/neutrinomuon/PyIntegral/blob/main/figures/Definite_Integral.png?raw=true' width="100%">
+<img src='https://github.com/neutrinomuon/PyIntegral/blob/main/figures/NGC5750.jpg?raw=true' width="100%">
 </div>
 
 <hr>
@@ -59,18 +63,18 @@ Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)<br>
 
 #### <b>INSTALLATION</b>
 
-You can easily install <a href=https://pypi.org/project/PyIntegral/>PyIntegral</a> by using pip - <a href='https://pypi.org/'>PyPI - The Python Package Index</a>:
+You can easily install <a href=https://pypi.org/project/fetch_sdss_images/>fetch_sdss_images</a> by using pip - <a href='https://pypi.org/'>PyPI - The Python Package Index</a>:
 <pre>
 <code>
 pip install fetch_sdss_images
 </code>
 </pre>
-or by using a generated conda repository <a href='https://anaconda.org/neutrinomuon/PyIntegral'>https://anaconda.org/neutrinomuon/PyIntegral</a>:
+or by using a generated conda repository <a href='https://anaconda.org/neutrinomuon/fetch_sdss_images'>https://anaconda.org/neutrinomuon/fetch_sdss_images</a>:
 
-[![badgetanaconda](https://anaconda.org/neutrinomuon/PyIntegral/badges/version.svg)](https://anaconda.org/neutrinomuon/PyIntegral/badges/version.svg)
-[![badgetreleasedate](https://anaconda.org/neutrinomuon/PyIntegral/badges/latest_release_date.svg)](https://anaconda.org/neutrinomuon/PyIntegral/badges/latest_release_date.svg)
-[![badgetplatforms](https://anaconda.org/neutrinomuon/PyIntegral/badges/platforms.svg
-)](https://anaconda.org/neutrinomuon/PyIntegral/badges/platforms.svg)
+[![badgetanaconda](https://anaconda.org/neutrinomuon/PyIntegral/badges/version.svg)](https://anaconda.org/neutrinomuon/feych_sdss_images/badges/version.svg)
+[![badgetreleasedate](https://anaconda.org/neutrinomuon/PyIntegral/badges/latest_release_date.svg)](https://anaconda.org/neutrinomuon/fetch_sdss_images/badges/latest_release_date.svg)
+[![badgetplatforms](https://anaconda.org/neutrinomuon/fetch_sdss_images/badges/platforms.svg
+)](https://anaconda.org/neutrinomuon/fetch_sdss_images/badges/platforms.svg)
 <pre>
 <code>
 conda install -c neutrinomuon fetch_sdss_images
@@ -88,12 +92,26 @@ python setup.py install
 
 <hr>
 
+#### <b>EXAMPLE</b>
+
+<hr>
+
+<form action="http://skyserver.sdss.org/dr16/en/tools/chart/list.aspx"
+method="post">
+<TEXTAREA name="paste">
+    ra     dec  
+159.815 -0.655
+161.051  0.152
+161.739  0.893
+164.090 -0.889
+</TEXTAREA>
+<input type="submit">
+</form>
+
 #### <b>REFERENCES</b>
 
-<!-- <ol><il> William H. Press, Saul A. Teukolsky, William T. Vetterling, and Brian
-P. Flannery. Numerical Recipes: The Art of Scientific Computing. William ISBN:
-978-0521880688. Link: <a
-href='https://numerical.recipes/'>https://numerical.recipes/</a></il> </ol> -->
+For the API/tools from SDSS, please check:
+<a href="https://skyserver.sdss.org/dr18/en/help/docs/api.aspx">https://skyserver.sdss.org/dr18/en/help/docs/api.aspx</a>
 
 <hr>
 
