@@ -130,8 +130,7 @@ workspace
 │   │   ├── f1
 │   │   │   └── d384f07bd5b4b8075a0694185afc46be21e124
 │   │   ├── eb
-│   │   │   ├── 5d6fdab220f7b55c1cbf81a92f26e74e76d0a7
-│   │   │   └── 20758ce0fcd41819b632e6d00a4303de6c6f03
+│   │   │   └── 5d6fdab220f7b55c1cbf81a92f26e74e76d0a7
 │   │   ├── c2
 │   │   │   └── b5501122099bcae8ac3808a6fd8d29203db15a
 │   │   ├── 48
@@ -141,13 +140,19 @@ workspace
 │   │   ├── pack
 │   │   ├── df
 │   │   │   └── bf73e506d96d058dbe3d3a7cbdbf17e6322c59
+│   │   ├── 2b
+│   │   │   └── 16f9e493432362b6e25e934c7418f426ffce86
 │   │   ├── b6
 │   │   │   └── 1b2c05538fcc3b37a7d1dc3a4a6bdb9385f68e
 │   │   ├── 30
 │   │   │   └── 6105783304f1550204ed2b0efeac569c815891
+│   │   ├── 3f
+│   │   │   └── 483b10e9d68a217ae84c0d144f452919443d2f
 │   │   ├── 05
 │   │   │   ├── b91ee76136bbb7dd14b24192962a313fe2d451
 │   │   │   └── 1be1a7a8549a1f5f7440085639af3edf274001
+│   │   ├── 45
+│   │   │   └── d4eca92482c6ba97fdf9a0b53765a9d3248866
 │   │   ├── b4
 │   │   │   └── f75c13ebf506203ff9c5152bbbe56c9aa29405
 │   │   ├── 87
@@ -160,12 +165,8 @@ workspace
 │   │   │   └── 51b55b2b6ba47fc1e8bc76227b8ab6d8d304d2
 │   │   ├── 2a
 │   │   │   └── da05b74d691ff04f8e75e571abe35b6b6413b7
-│   │   ├── 0b
-│   │   │   └── 803197abf5fcb7ba876efef2655453b1d1cda5
 │   │   ├── e3
 │   │   │   └── fd2b66856f47c5a493130e89bd48cf4b5443b4
-│   │   ├── c3
-│   │   │   └── 05971a5f01e55d03560e29178217540d929909
 │   │   ├── fe
 │   │   │   └── 53f10f99a8c6a2f22ae5aa1ca26bd430afe020
 │   │   ├── 2d
@@ -200,20 +201,19 @@ workspace
 │   │   ├── 07
 │   │   │   └── 2713a421e96f0cc7d70de650d148f1512df51a
 │   │   ├── 1f
-│   │   │   ├── a48ae0e50fb31364b07fd3996813f31c539878
 │   │   │   └── acfbac556f8e938d75ba6e53d8be00eb5c2ae6
+│   │   ├── f4
+│   │   │   └── 980192fadfa84155f69a1f04b34521886b5c6b
 │   │   ├── ae
 │   │   │   └── ae96ff2706a3d404c5b543b4a5d365dbfe9220
-│   │   ├── 9c
-│   │   │   └── dc770b03bcffc191d3ffba72ca3cf14efa07b5
 │   │   ├── f3
 │   │   │   └── 87f3feeece7071386cb18f9f2c061217bc34ea
 │   │   ├── e6
 │   │   │   └── 9de29bb2d1d6434b8b29ae775ad8c2e48c5391
 │   │   ├── db
-│   │   │   ├── 7fdfb788f537f810039ead90c68683c249ea1d
-│   │   │   └── 9548855f3905fc0741ca345c88c1525396a32d
+│   │   │   └── 7fdfb788f537f810039ead90c68683c249ea1d
 │   │   ├── d6
+│   │   │   ├── 1928fc6282ccf00ea33206a3df5061460f49fe
 │   │   │   └── dd81930f707b7fec7d642f66458b71f173a318
 │   │   ├── 06
 │   │   │   └── 9c8284db0873361ee777d18950419e37a35732
@@ -221,6 +221,8 @@ workspace
 │   │   │   └── 137891791fe96927ad78e64b0aad7bded08bdc
 │   │   ├── fd
 │   │   │   └── dfb41eb4a26aaca8b57fd277dcf8b0a55cd606
+│   │   ├── d8
+│   │   │   └── 39e84b19030ae97bfb9ee36dc7d3afe3b125b6
 │   │   ├── 3c
 │   │   │   └── e79c0c72edae8b7b7a3af5cea99c4b9ca2ebe2
 │   │   ├── 90
@@ -353,7 +355,7 @@ workspace
             └── __init__.py
 ... length_limit, 1000, reached, counted:
 
-324 directories, 840 files
+332 directories, 840 files
 #################################################
 Generated with tree_colored @ 2023 - © Jean Gomes
 #################################################
