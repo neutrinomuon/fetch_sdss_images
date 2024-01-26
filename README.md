@@ -120,20 +120,18 @@ For the API/tools from SDSS, please check:
 <pre>
 #################################################
 workspace
+├── setup.py
 ├── LICENSE.txt
 ├── django
 │   └── __init__.py
-├── tmp
-│   ├── get_SDSS_image.tar.bz2
-│   └── get_SDSS_image
-│       ├── get_image.sh
-│       ├── ra_dec.txt
-│       └── .smhist
 ├── .git
 │   ├── HEAD
 │   ├── objects
+│   │   ├── f1
+│   │   │   └── d384f07bd5b4b8075a0694185afc46be21e124
 │   │   ├── eb
-│   │   │   └── 5d6fdab220f7b55c1cbf81a92f26e74e76d0a7
+│   │   │   ├── 5d6fdab220f7b55c1cbf81a92f26e74e76d0a7
+│   │   │   └── 20758ce0fcd41819b632e6d00a4303de6c6f03
 │   │   ├── c2
 │   │   │   └── b5501122099bcae8ac3808a6fd8d29203db15a
 │   │   ├── 48
@@ -141,33 +139,37 @@ workspace
 │   │   ├── 24
 │   │   │   └── 649e5b8598fd7f7b89400fe768aa8a710f97d6
 │   │   ├── pack
-│   │   ├── 86
-│   │   │   └── 18cc14d13a39c6c0c89241da2654f7e68c7c24
 │   │   ├── df
 │   │   │   └── bf73e506d96d058dbe3d3a7cbdbf17e6322c59
 │   │   ├── b6
-│   │   │   ├── 12ba5da622a5287bcb8ef75e2ea02bb9cb4885
 │   │   │   └── 1b2c05538fcc3b37a7d1dc3a4a6bdb9385f68e
 │   │   ├── 30
 │   │   │   └── 6105783304f1550204ed2b0efeac569c815891
 │   │   ├── 05
-│   │   │   └── b91ee76136bbb7dd14b24192962a313fe2d451
+│   │   │   ├── b91ee76136bbb7dd14b24192962a313fe2d451
+│   │   │   └── 1be1a7a8549a1f5f7440085639af3edf274001
 │   │   ├── b4
 │   │   │   └── f75c13ebf506203ff9c5152bbbe56c9aa29405
-│   │   ├── 5c
-│   │   │   └── a26c62289e4651a026150f7753fa2483bbafea
+│   │   ├── 87
+│   │   │   └── 59626063a122fdea7f8f73357fec15ca3ffa80
 │   │   ├── 4b
 │   │   │   └── 78de8412ead24bacca881f0c2ef83b9a13ba35
-│   │   ├── f2
-│   │   │   └── 144e2e4feeb7e58d1c61ae617f55e487910c24
+│   │   ├── 0a
+│   │   │   └── 948608fcf797f0d55ba50733035351450f7929
+│   │   ├── 88
+│   │   │   └── 51b55b2b6ba47fc1e8bc76227b8ab6d8d304d2
 │   │   ├── 2a
 │   │   │   └── da05b74d691ff04f8e75e571abe35b6b6413b7
+│   │   ├── 0b
+│   │   │   └── 803197abf5fcb7ba876efef2655453b1d1cda5
 │   │   ├── e3
 │   │   │   └── fd2b66856f47c5a493130e89bd48cf4b5443b4
-│   │   ├── 6d
-│   │   │   └── 3fa7d701ca9e659b3c8c7e4bdefa97cb8f07f3
+│   │   ├── c3
+│   │   │   └── 05971a5f01e55d03560e29178217540d929909
 │   │   ├── fe
 │   │   │   └── 53f10f99a8c6a2f22ae5aa1ca26bd430afe020
+│   │   ├── 2d
+│   │   │   └── c2e8798440f8b05fc907287ebd54258b5c8ea9
 │   │   ├── 71
 │   │   │   └── 5dde02a154e818b07a5c7f14604e55dbdd9d93
 │   │   ├── af
@@ -178,9 +180,9 @@ workspace
 │   │   │   └── 1dcfdaf1a6857c5f83dc27019c7600e1ffaff8
 │   │   ├── info
 │   │   ├── aa
-│   │   │   └── 2e2fe106d94ab5d31fd53c0d044e8f98721802
-│   │   ├── 14
-│   │   │   └── 86763056eb428aeda8a5bff03c263f4d28a248
+│   │   │   └── 094d9f64a7cc9debc3bc069b28f8398a62508f
+│   │   ├── 97
+│   │   │   └── 3a63be7abcb8bdd324d24e5140093d0e56e10e
 │   │   ├── c9
 │   │   │   └── c2de91a00f9040682898df6122b9b55125ae5d
 │   │   ├── 3b
@@ -189,16 +191,14 @@ workspace
 │   │   │   └── 81682dc124640dda0a73f46d3b70a8d4428666
 │   │   ├── 68
 │   │   │   └── b8f02c4191339cfea296e8aefc93887d09c223
+│   │   ├── 42
+│   │   │   └── fa9b4f03dc1ee0bcaf0a9c84fcb25a893bad05
 │   │   ├── b3
 │   │   │   └── 69968545ed8b865255d084c94482dab84de77e
-│   │   ├── 8f
-│   │   │   └── 2ec7e171ec8857b703a7bdbca6c98021183a3c
 │   │   ├── 6b
 │   │   │   └── 235cfec2aa3378fa28a0c3f0b53bf2799e0a33
 │   │   ├── 07
 │   │   │   └── 2713a421e96f0cc7d70de650d148f1512df51a
-│   │   ├── 73
-│   │   │   └── ef608d3fce54f94842103ede91efb00cbeb9e7
 │   │   ├── 1f
 │   │   │   ├── a48ae0e50fb31364b07fd3996813f31c539878
 │   │   │   └── acfbac556f8e938d75ba6e53d8be00eb5c2ae6
@@ -213,21 +213,23 @@ workspace
 │   │   ├── db
 │   │   │   ├── 7fdfb788f537f810039ead90c68683c249ea1d
 │   │   │   └── 9548855f3905fc0741ca345c88c1525396a32d
+│   │   ├── d6
+│   │   │   └── dd81930f707b7fec7d642f66458b71f173a318
 │   │   ├── 06
 │   │   │   └── 9c8284db0873361ee777d18950419e37a35732
-│   │   ├── cc
-│   │   │   └── de2165ce1bc9103a28396ae93fb24db3fa3d44
+│   │   ├── 8b
+│   │   │   └── 137891791fe96927ad78e64b0aad7bded08bdc
 │   │   ├── fd
 │   │   │   └── dfb41eb4a26aaca8b57fd277dcf8b0a55cd606
 │   │   ├── 3c
 │   │   │   └── e79c0c72edae8b7b7a3af5cea99c4b9ca2ebe2
-│   │   ├── 0d
-│   │   │   └── 045100985e33446f4ded2ad0512fb3b55ababd
 │   │   ├── 90
 │   │   │   └── 6359be19ecda8a95e89b4ea5d2994680ac6ee8
 │   │   ├── 64
 │   │   │   ├── dcbc5b4cb20d554a80edea0a5beecec37d68a0
 │   │   │   └── 04f35d8b4708497e326380a9521d8cec071e11
+│   │   ├── 9b
+│   │   │   └── 7fcc1afe88ad27e41a267aead01c6fea2dac29
 │   │   ├── 1d
 │   │   │   └── c6f6cba62933b7cc2f6be701620c32c53c583b
 │   │   ├── d2
@@ -236,10 +238,15 @@ workspace
 │   │   │   └── cdd82b765e8e0b8cd8787f7f18c7fe2ec52493
 │   │   ├── 12
 │   │   │   └── d51e4d48c6b1a66539b830c1bc60e540b83040
-│   │   ├── 83
-│   │   │   └── 9fb8a37ba9243553e88b9e11e1fe1cf62dc95a
-│   │   └── 0f
-│   │       └── 8971bd9942a347ea402b0b5e5979b0405e1e30
+│   │   ├── 00
+│   │   │   └── 08f3ccf90aa8582f3e100c818c37217ef4faf6
+│   │   ├── d7
+│   │   │   └── 9e09b829a45a7b7f6c5c4f1105b17f74c24532
+│   │   ├── 0f
+│   │   │   └── 8971bd9942a347ea402b0b5e5979b0405e1e30
+│   │   └── bd
+│   │       ├── fbb04d07800a901047d068a3b9d3c6175c8fae
+│   │       └── 6534a86fdcc25d3f41f7c3a67d1a3059feb4b7
 │   ├── config
 │   ├── FETCH_HEAD
 │   ├── info
@@ -278,11 +285,21 @@ workspace
 │   │           └── origin
 │   │               └── main
 │   └── index
+├── dist
+│   ├── fetch_sdss_images-0.0.1-py3.9.egg
+│   └── fetch_sdss_images-0.0.1.tar.gz
+├── fetch_sdss_images.egg-info
+│   ├── PKG-INFO
+│   ├── dependency_links.txt
+│   ├── SOURCES.txt
+│   ├── top_level.txt
+│   └── requires.txt
 ├── version.txt
 ├── figures
 │   ├── Education_white_background.png
 │   ├── Fetch SDSS Images.png
 │   ├── Education_black_background.png
+│   ├── Fetch_SDSS_Images.png
 │   ├── NGC5750.jpg
 │   ├── PEP8-StyleGuide.jpg
 │   ├── Education_black_background-removebg.png
@@ -298,6 +315,7 @@ workspace
 │   │   ├── __pycache__
 │   │   │   └── download_image_SDSS.cpython-39.pyc
 │   │   ├── objects.txt
+│   │   ├── __init__.py
 │   │   ├── test_filenoIDS.jpg
 │   │   ├── 1774.53759.272.jpg
 │   │   ├── NGC5750.jpg
@@ -324,13 +342,18 @@ workspace
 │       ├── download_image_SDSS_DR11.sh
 │       ├── 1627.53473.303.jpg
 │       └── 0271.51883.293.jpg
-└── .github
-    └── workflows
-        ├── main.yml
-        └── pylint.yml
+├── .github
+│   └── workflows
+│       ├── main.yml
+│       └── pylint.yml
+└── build
+    └── lib
+        └── fetch_sdss_images
+            ├── download_image_sdss.py
+            └── __init__.py
 ... length_limit, 1000, reached, counted:
 
-298 directories, 761 files
+324 directories, 840 files
 #################################################
 Generated with tree_colored @ 2023 - © Jean Gomes
 #################################################
