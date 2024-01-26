@@ -93,7 +93,7 @@ python setup.py install
 
 <hr>
 
-#### <b>EXAMPLE</b>
+<!-- #### <b>EXAMPLE</b>
 
 <hr>
 
@@ -107,7 +107,7 @@ method="post">
 164.090 -0.889
 </TEXTAREA>
 <input type="submit">
-</form>
+</form> -->
 
 #### <b>REFERENCES</b>
 
