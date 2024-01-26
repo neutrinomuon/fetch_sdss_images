@@ -31,6 +31,8 @@ last stable version: 0.0.1
 Example of a galaxy retrieved from the SDSS API for Data Release 18: NGC 5750
 </center>
 
+<br>
+
 <div align="center">
 <img src='https://github.com/neutrinomuon/fetch_sdss_images/blob/main/figures/NGC5750.jpg?raw=true' width="400px">
 </div>
@@ -39,7 +41,7 @@ Example of a galaxy retrieved from the SDSS API for Data Release 18: NGC 5750
 
 #### <b>RESUME</b>
 
-<img src="https:///github.com/neutrinomuon/fetch_sdss_images/blob/main/figures/fetch_sdss_images/Fetch_SDSS_Images.jpg?raw=true" width=120px>
+<img src="https://github.com/neutrinomuon/fetch_sdss_images/blob/main/figures/Fetch_SDSS_Images.jpg?raw=true" width=120px>
 Download images from SDSS. Read the
 <a href='https://github.com/neutrinomuon/fetch_sdss_images/blob/main/LICENSE.txt'>LICENSE.txt</a> file.
 
