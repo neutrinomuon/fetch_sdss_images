@@ -22,8 +22,8 @@ last stable version: 0.0.1
   <img src="https://www.djangoproject.com/m/img/badges/djangopowered126x54.gif" alt="DJANGO" width="50">
 </a><br>
 <!-- [![DJANGO](https://www.djangoproject.com/m/img/badges/djangopowered126x54.gif)](https://www.djangoproject.com)<br>-->
-[![python3](https://img.shields.io/pypi/pyversions/PyIntegral)](https://img.shields.io/pypi/pyversions/PyIntegral)
-[![badgetlicense](https://anaconda.org/neutrinomuon/PyIntegral/badges/license.svg)](https://anaconda.org/neutrinomuon/PyIntegral/badges/license.svg)
+[![python3](https://img.shields.io/pypi/pyversions/fetch_sdss_images)](https://img.shields.io/pypi/pyversions/PyIntegral)
+[![badgetlicense](https://anaconda.org/neutrinomuon/fecth_sdss_images/badges/license.svg)](https://anaconda.org/neutrinomuon/fetch_sdss_images/badges/license.svg)
 
 <hr>
 
@@ -53,10 +53,9 @@ $\color{#58A6FF}\textsf{\Large\&#x24D8;\kern{0.2cm}\normalsize Note}$
 This project was also created with a focus on educational purposes and it is still underdevelopment.
 -->
 
-<img src="https://github.com/neutrinomuon/fetch_sdss_images/blob/main/figures/Education,_Studying,_University,_Alumni_-_icon.png?raw=true#gh-light-mode-only" width="70px"><img src="https://raw.githubusercontent.com/neutrinomuon/fetch_sdss_images/main/figures/Education_black_background-removebg.png#gh-dark-mode-only" width="70px">This project was also created with a focus on educational purposes.
+<img src="https://github.com/neutrinomuon/fetch_sdss_images/blob/main/figures/Education,_Studying,_University,_Alumni_-_icon.png?raw=true#gh-light-mode-only" width="70px"><img src="https://github.com/neutrinomuon/fetch_sdss_images/blob/main/figures/Education_black_background-removebg.png?raw=true#gh-dark-mode-only" width="70px">This project was also created with a focus on educational purposes.
 
-
-<img src="https://raw.githubusercontent.com/neutrinomuon/fetch_sdss_images/main/figures/PEP8-StyleGuide.jpg" width="70px"> Now, fetch_sdss_images has all its scripts in accordance with PEP 8 guidelines.
+<img src="https://github.com/neutrinomuon/fetch_sdss_images/blob/main/figures/PEP8-StyleGuide.jpg?raw=true" width="70px"> Now, fetch_sdss_images has all its scripts in accordance with PEP 8 guidelines.
 
 --------------------------------------------------------------------<br>
 Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)<br>
