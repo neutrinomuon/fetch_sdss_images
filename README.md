@@ -13,7 +13,7 @@ J.G. - Jean Gomes
 
 last stable version: 0.0.1
 <!-- https://zenodo.org/badge/doi/10.5281/zenodo.10433044.svg -->
-<!-- [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.10433044.svg)](https://zenodo.org/badge/doi/10.5281/zenodo.10433044.svg) -->
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.10571521.svg)](https://zenodo.org/badge/doi/10.5281/zenodo.10571521.svg)
 
 <hr>
 
