@@ -1,12 +1,14 @@
-from setuptools import Extension
+''' This setup.py file is for installing the script of fetch_sdss_images. \
+It conforms with PEP 8 guide for python'''
+# from setuptools import Extension
 from setuptools import setup
 
-with open("README.md", "r") as fh:
+with open("README.md", "r",encoding="utf-8") as fh:
     long_description = fh.read()
 
 with open("version.txt","r",encoding="utf-8") as vh:
     version_description = vh.read()
-    
+
 setup( name='fetch_sdss_images',
        version=version_description,
        description='A Python package for downloading SDSS images from distinct releases easily!',
@@ -24,4 +26,3 @@ setup( name='fetch_sdss_images',
        packages=['fetch_sdss_images'],
        data_files=[('', ['version.txt']),],
       )
-    
