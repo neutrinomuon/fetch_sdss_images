@@ -1,0 +1,43 @@
+{% set name = "fetch_sdss_images" %}
+{% set version = "0.0.1" %}
+{% set url = "https://files.pythonhosted.org/packages/source/" + name[0] + "/" + name + "/" + name + "-" + version + ".tar.gz" %}
+
+package:
+  name: "{{ name|lower }}"
+  version: "{{ version }}"
+
+source:
+  fn: "{{ name }}-{{ version }}.tar.gz"
+  url: "{{ url }}"
+  sha256: 46be3e8d69f88a5e1baea0d110ba21a4490344c4f9d5ee77223b92969f525fdf
+
+build:
+  number: 0
+  script: "{{ PYTHON }} -m pip install . -vv"
+
+requirements:
+  host:
+    - matplotlib
+    - numpy>=1.21.5
+    - pip
+    - python
+  run:
+    - matplotlib
+    - numpy>=1.21.5
+    - python
+
+test:
+  imports:
+    - fetch_sdss_images
+
+about:
+  home: "https://github.com/neutrinomuon/fetch_sdss_images"
+  license_file: 'LICENSE.txt'
+  license_url: "https://github.com/neutrinomuon/fetch_sdss_images/LICENSE.txt"
+  summary: "Download SDSS images using python and choosing the Data Release distribution. Default last SDSS release DR18"
+  doc_url: "https://github.com/neutrinomuon/fetch_sdss_images"
+  dev_url: "https://github.com/neutrinomuon/fetch_sdss_images"
+
+extra:
+  recipe-maintainers:
+    - neutrinomuon
