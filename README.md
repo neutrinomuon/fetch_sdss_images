@@ -32,7 +32,7 @@ Example of a galaxy retrieved from the SDSS API for Data Release 18: NGC 5750
 </center>
 
 <div align="center">
-<img src='https://github.com/neutrinomuon/PyIntegral/blob/main/figures/NGC5750.jpg?raw=true' width="100%">
+<img src='https://github.com/neutrinomuon/fetch_sdss_images/blob/main/figures/NGC5750.jpg?raw=true' width="100%">
 </div>
 
 <hr>
@@ -54,7 +54,7 @@ This project was also created with a focus on educational purposes and it is sti
 <img src="https://raw.githubusercontent.com/neutrinomuon/fetch_sdss_images/main/figures/Education,_Studying,_University,_Alumni_-_icon.png#gh-light-mode-only" width="70px"><img src="https://raw.githubusercontent.com/neutrinomuon/fetch_sdss_images/main/figures/Education_black_background-removebg.png#gh-dark-mode-only" width="70px">This project was also created with a focus on educational purposes.
 
 
-<img src="https://raw.githubusercontent.com/neutrinomuon/fetch_sdss_images/main/figures/PEP8-StyleGuide.jpg" width="70px"> Now, PyIntegral has all its scripts in accordance with PEP 8 guidelines.
+<img src="https://raw.githubusercontent.com/neutrinomuon/fetch_sdss_images/main/figures/PEP8-StyleGuide.jpg" width="70px"> Now, fetch_sdss_images has all its scripts in accordance with PEP 8 guidelines.
 
 --------------------------------------------------------------------<br>
 Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)<br>
@@ -335,9 +335,7 @@ Generated with tree_colored @ 2023 - © Jean Gomes
 #################################################
 </pre>
 
-XXXXX.py ????  is a python wrapper to the library in Fortran called
-pyintegral.flib. The Fortran directory can be compiled separately for each
-individual subroutine.
+download_sdss_images.py is a python script, originally based on bash script.
 
 <hr>
 
