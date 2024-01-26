@@ -1,0 +1,481 @@
+<p align="left">
+  <img src="https://github.com/neutrinomuon/fetch_sdss_images/blob/main/figures/Fetch_SDSS_Images.png?raw=true" alt="Fetch SDSS Images" width="120px">
+</p>
+
+### fetch_sdss_images
+
+####  A Python package for downloading SDSS images from distinct releases easily!
+email: [antineutrinomuon@gmail.com](mailto:antineutrinomuon@gmail.com), [jean@astro.up.pt](mailto:jean@astro.up.pt)
+
+© Copyright ®
+
+J.G. - Jean Gomes
+
+last stable version: 0.0.1
+<!-- https://zenodo.org/badge/doi/10.5281/zenodo.10433044.svg -->
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.10571521.svg)](https://zenodo.org/badge/doi/10.5281/zenodo.10571521.svg)
+
+<hr>
+
+![My Skills](https://skillicons.dev/icons?i=python,bash,numpy&theme=light)<br>
+<a href="https://www.djangoproject.com">
+  <img src="https://www.djangoproject.com/m/img/badges/djangopowered126x54.gif" alt="DJANGO" width="50">
+</a><br>
+<!-- [![DJANGO](https://www.djangoproject.com/m/img/badges/djangopowered126x54.gif)](https://www.djangoproject.com)<br>-->
+[![python3](https://img.shields.io/pypi/pyversions/fetch_sdss_images)](https://img.shields.io/pypi/pyversions/PyIntegral)
+[![badgetlicense](https://anaconda.org/neutrinomuon/fetch_sdss_images/badges/license.svg)](https://anaconda.org/neutrinomuon/fetch_sdss_images/badges/license.svg)
+
+<hr>
+
+<center>
+Example of a galaxy retrieved from the SDSS API for Data Release 18: NGC 5750
+</center>
+
+<br>
+
+<div align="center">
+<img src='https://github.com/neutrinomuon/fetch_sdss_images/blob/main/figures/NGC5750.jpg?raw=true' width="400px">
+</div>
+
+<hr>
+
+#### <b>RESUME</b>
+
+<img src="https://github.com/neutrinomuon/fetch_sdss_images/blob/main/figures/Fetch_SDSS_Images.png?raw=true" width=120px>
+Download images from SDSS. Read the
+<a href='https://github.com/neutrinomuon/fetch_sdss_images/blob/main/LICENSE.txt'>LICENSE.txt</a> file.
+
+$\color{#58A6FF}\textsf{\Large\&#x24D8;\kern{0.2cm}\normalsize Note}$
+
+<!-- This does not work on github
+![Light Mode Icon](https://raw.githubusercontent.com/neutrinomuon/fetch_sdss_images/main/figures/Education,_Studying,_University,_Alumni_-_icon.png)
+![Dark Mode Icon](https://raw.githubusercontent.com/neutrinomuon/fetch_sdss_images/main/figures/Education_black_background-removebg.png)
+This project was also created with a focus on educational purposes and it is still underdevelopment.
+-->
+
+<img src="https://github.com/neutrinomuon/fetch_sdss_images/blob/main/figures/Education,_Studying,_University,_Alumni_-_icon.png?raw=true#gh-light-mode-only" width="70px"><img src="https://github.com/neutrinomuon/fetch_sdss_images/blob/main/figures/Education_black_background-removebg.png?raw=true#gh-dark-mode-only" width="70px">This project was also created with a focus on educational purposes.
+
+<img src="https://github.com/neutrinomuon/fetch_sdss_images/blob/main/figures/PEP8-StyleGuide.jpg?raw=true" width="70px"> Now, fetch_sdss_images has all its scripts in accordance with PEP 8 guidelines.
+
+--------------------------------------------------------------------<br>
+Your code has been rated at 10.00/10 (previous run: 10.00/10, +0.00)<br>
+
+<hr>
+
+#### <b>INSTALLATION</b>
+
+You can easily install <a href=https://pypi.org/project/fetch_sdss_images/>fetch_sdss_images</a> by using pip - <a href='https://pypi.org/'>PyPI - The Python Package Index</a>:
+<pre>
+<code>
+pip install fetch_sdss_images
+</code>
+</pre>
+or by using a generated conda repository <a href='https://anaconda.org/neutrinomuon/fetch_sdss_images'>https://anaconda.org/neutrinomuon/fetch_sdss_images</a>:
+
+[![badgetanaconda](https://anaconda.org/neutrinomuon/PyIntegral/badges/version.svg)](https://anaconda.org/neutrinomuon/feych_sdss_images/badges/version.svg)
+[![badgetreleasedate](https://anaconda.org/neutrinomuon/PyIntegral/badges/latest_release_date.svg)](https://anaconda.org/neutrinomuon/fetch_sdss_images/badges/latest_release_date.svg)
+[![badgetplatforms](https://anaconda.org/neutrinomuon/fetch_sdss_images/badges/platforms.svg
+)](https://anaconda.org/neutrinomuon/fetch_sdss_images/badges/platforms.svg)
+<pre>
+<code>
+conda install -c neutrinomuon fetch_sdss_images
+</code>
+</pre>
+OBS.: Linux, OS-X ad Windows pre-compilations available in conda.
+
+You can also clone the repository and install by yourself in your machine:
+<pre>
+<code>
+git clone https://github.com/neutrinomuon/fetch_sdss_images
+python setup.py install
+</code>
+</pre>
+
+<hr>
+
+<!-- #### <b>EXAMPLE</b>
+
+<hr>
+
+<form action="http://skyserver.sdss.org/dr16/en/tools/chart/list.aspx"
+method="post">
+<TEXTAREA name="paste">
+    ra     dec  
+159.815 -0.655
+161.051  0.152
+161.739  0.893
+164.090 -0.889
+</TEXTAREA>
+<input type="submit">
+</form> -->
+
+#### <b>REFERENCES</b>
+
+For the API/tools from SDSS, please check:
+<a href="https://skyserver.sdss.org/dr18/en/help/docs/api.aspx">https://skyserver.sdss.org/dr18/en/help/docs/api.aspx</a>
+
+<hr>
+
+#### <b>STRUCTURE</b>
+<pre>
+#################################################
+workspace
+├── setup.py
+├── LICENSE.txt
+├── django
+│   └── __init__.py
+├── .git
+│   ├── HEAD
+│   ├── objects
+│   │   ├── f1
+│   │   │   ├── 65a6678872fab177199ecade7d13390319982f
+│   │   │   └── d384f07bd5b4b8075a0694185afc46be21e124
+│   │   ├── eb
+│   │   │   ├── 5d6fdab220f7b55c1cbf81a92f26e74e76d0a7
+│   │   │   └── 1e173217087304d315794328ea94cd3073e190
+│   │   ├── c2
+│   │   │   └── b5501122099bcae8ac3808a6fd8d29203db15a
+│   │   ├── 48
+│   │   │   └── 0b58b0d9c996156a9f525b9a537a0ad919b6fd
+│   │   ├── 5f
+│   │   │   └── f8757af7a3a0f1e3525e05b6bf1754276d5f24
+│   │   ├── f6
+│   │   │   └── 896f70190866e5c6082dc73b7870774f970559
+│   │   ├── 24
+│   │   │   └── 649e5b8598fd7f7b89400fe768aa8a710f97d6
+│   │   ├── pack
+│   │   ├── 7f
+│   │   │   └── 4c7946d37c4a0ccf41edbc7e19fe704b2df73e
+│   │   ├── df
+│   │   │   └── bf73e506d96d058dbe3d3a7cbdbf17e6322c59
+│   │   ├── 78
+│   │   │   └── 55e2d621016f1d71eebfe64ceebd7a454dd384
+│   │   ├── b6
+│   │   │   └── 1b2c05538fcc3b37a7d1dc3a4a6bdb9385f68e
+│   │   ├── 30
+│   │   │   └── 6105783304f1550204ed2b0efeac569c815891
+│   │   ├── 3f
+│   │   │   └── 483b10e9d68a217ae84c0d144f452919443d2f
+│   │   ├── 05
+│   │   │   ├── b91ee76136bbb7dd14b24192962a313fe2d451
+│   │   │   └── 1be1a7a8549a1f5f7440085639af3edf274001
+│   │   ├── 45
+│   │   │   └── 4db798bf551ed57ac956abdc67341daec56699
+│   │   ├── ff
+│   │   │   └── 23a974bd4b117e851d969c897c0f4a5932f859
+│   │   ├── b4
+│   │   │   └── f75c13ebf506203ff9c5152bbbe56c9aa29405
+│   │   ├── 70
+│   │   │   └── 5b1ca0c9e1ad9c2dc9639809023b7a61092623
+│   │   ├── 87
+│   │   │   └── 59626063a122fdea7f8f73357fec15ca3ffa80
+│   │   ├── 19
+│   │   │   └── 4bcac801e6369071961effab73d56d5a181871
+│   │   ├── 4b
+│   │   │   ├── a20476d96475f70301badbaef8012116e43aea
+│   │   │   └── 78de8412ead24bacca881f0c2ef83b9a13ba35
+│   │   ├── 2a
+│   │   │   └── da05b74d691ff04f8e75e571abe35b6b6413b7
+│   │   ├── e3
+│   │   │   └── fd2b66856f47c5a493130e89bd48cf4b5443b4
+│   │   ├── c3
+│   │   │   └── 98affc7bb3ff52fa93ceb894112e6cf3d6ef5f
+│   │   ├── fe
+│   │   │   └── 53f10f99a8c6a2f22ae5aa1ca26bd430afe020
+│   │   ├── 2d
+│   │   │   └── c2e8798440f8b05fc907287ebd54258b5c8ea9
+│   │   ├── 71
+│   │   │   └── 5dde02a154e818b07a5c7f14604e55dbdd9d93
+│   │   ├── 39
+│   │   │   └── 52378f5a54868061b20788b1645477456f70f5
+│   │   ├── af
+│   │   │   └── fc1306f71b0ea5acffa3198e33435bd987ac20
+│   │   ├── 4d
+│   │   │   ├── 23e6f1efde562a258a0f52339b91b32215959c
+│   │   │   └── 82630ba320040fc2adc1f5244adc0106b67d51
+│   │   ├── 8d
+│   │   │   └── c4c8de2738f8f918fadbda3f0f26d679ed4747
+│   │   ├── 49
+│   │   │   └── 33054fd01b6ef397c6bff654de03ac1d89d7a9
+│   │   ├── 63
+│   │   │   └── 60cc3cd0d8436caa99aa4bc6c112258e0e6df9
+│   │   ├── 80
+│   │   │   └── cfce01654d7e1cd469996381936be9a5b4d0cc
+│   │   ├── 9d
+│   │   │   └── 1dcfdaf1a6857c5f83dc27019c7600e1ffaff8
+│   │   ├── 29
+│   │   │   └── a9745fd8fda524ab303253c876774285b8ba87
+│   │   ├── a4
+│   │   │   └── b7f39d98a2e229f57e52d2e28b7ef3b0da2bc9
+│   │   ├── info
+│   │   ├── aa
+│   │   │   └── 094d9f64a7cc9debc3bc069b28f8398a62508f
+│   │   ├── 97
+│   │   │   └── 3a63be7abcb8bdd324d24e5140093d0e56e10e
+│   │   ├── c9
+│   │   │   └── c2de91a00f9040682898df6122b9b55125ae5d
+│   │   ├── dd
+│   │   │   └── b703b12c10e2947b397cb51a9be2bf241edefe
+│   │   ├── 3b
+│   │   │   └── d3b5a80009b500e3e466ba237cbd6b49c60ec5
+│   │   ├── f5
+│   │   │   └── 81682dc124640dda0a73f46d3b70a8d4428666
+│   │   ├── 68
+│   │   │   └── b8f02c4191339cfea296e8aefc93887d09c223
+│   │   ├── 42
+│   │   │   ├── b840c0e38756608ecaf631161b39ca324237fc
+│   │   │   └── fa9b4f03dc1ee0bcaf0a9c84fcb25a893bad05
+│   │   ├── b3
+│   │   │   └── 69968545ed8b865255d084c94482dab84de77e
+│   │   ├── 93
+│   │   │   └── 2133be942b8fc5bf4bc259a86b1b5a6a9b4288
+│   │   ├── 6b
+│   │   │   └── 235cfec2aa3378fa28a0c3f0b53bf2799e0a33
+│   │   ├── 07
+│   │   │   └── 2713a421e96f0cc7d70de650d148f1512df51a
+│   │   ├── 57
+│   │   │   └── 81707107089d682288e2be1e71cc4f4054e7e2
+│   │   ├── 16
+│   │   │   └── 6b7d32aabae546bde840ae718fb16d927a9b4f
+│   │   ├── 1f
+│   │   │   └── acfbac556f8e938d75ba6e53d8be00eb5c2ae6
+│   │   ├── ae
+│   │   │   └── ae96ff2706a3d404c5b543b4a5d365dbfe9220
+│   │   ├── 01
+│   │   │   └── 938fac0c9cffaab339c2580bb89cacc0616025
+│   │   ├── ce
+│   │   │   └── 85f60d4cccea9a7895111231ea8de9114bfecf
+│   │   ├── f3
+│   │   │   └── 87f3feeece7071386cb18f9f2c061217bc34ea
+│   │   ├── e6
+│   │   │   ├── 9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+│   │   │   └── 13733745ceef02d9b52d94020bf0f1dfa61e62
+│   │   ├── db
+│   │   │   └── 7fdfb788f537f810039ead90c68683c249ea1d
+│   │   ├── e0
+│   │   │   └── 62f466dd67d7c3e5f447d6f94ebdf26805b5ee
+│   │   ├── 9a
+│   │   │   └── bb8c116695e76f9c4395229d20c4df6400d559
+│   │   ├── d6
+│   │   │   └── 1928fc6282ccf00ea33206a3df5061460f49fe
+│   │   ├── 06
+│   │   │   └── 9c8284db0873361ee777d18950419e37a35732
+│   │   ├── 8b
+│   │   │   └── 137891791fe96927ad78e64b0aad7bded08bdc
+│   │   ├── cc
+│   │   │   └── ec579a05b22411d10596cbb2360c34ec3294ea
+│   │   ├── 62
+│   │   │   └── 656d8c3afc331e7b92f29f72883d019b74cd66
+│   │   ├── fd
+│   │   │   └── dfb41eb4a26aaca8b57fd277dcf8b0a55cd606
+│   │   ├── d8
+│   │   │   └── 39e84b19030ae97bfb9ee36dc7d3afe3b125b6
+│   │   ├── 3c
+│   │   │   └── e79c0c72edae8b7b7a3af5cea99c4b9ca2ebe2
+│   │   ├── da
+│   │   │   └── ad14b2aee7578d9c492498f95039771ae90cf7
+│   │   ├── 90
+│   │   │   └── 6359be19ecda8a95e89b4ea5d2994680ac6ee8
+│   │   ├── 64
+│   │   │   ├── dcbc5b4cb20d554a80edea0a5beecec37d68a0
+│   │   │   └── 04f35d8b4708497e326380a9521d8cec071e11
+│   │   ├── 9b
+│   │   │   └── 7fcc1afe88ad27e41a267aead01c6fea2dac29
+│   │   ├── 1d
+│   │   │   └── c6f6cba62933b7cc2f6be701620c32c53c583b
+│   │   ├── d2
+│   │   │   └── 28c32c7658afedb94521fa1a8e44d7c1c4bb2f
+│   │   ├── 8a
+│   │   │   └── cdd82b765e8e0b8cd8787f7f18c7fe2ec52493
+│   │   ├── 12
+│   │   │   └── d51e4d48c6b1a66539b830c1bc60e540b83040
+│   │   ├── 00
+│   │   │   └── 08f3ccf90aa8582f3e100c818c37217ef4faf6
+│   │   ├── d7
+│   │   │   └── 9e09b829a45a7b7f6c5c4f1105b17f74c24532
+│   │   ├── 0f
+│   │   │   └── 8971bd9942a347ea402b0b5e5979b0405e1e30
+│   │   ├── bd
+│   │   │   ├── fbb04d07800a901047d068a3b9d3c6175c8fae
+│   │   │   └── 6534a86fdcc25d3f41f7c3a67d1a3059feb4b7
+│   │   └── 94
+│   │       └── 94ee9a65ce9cb3da424c768f4f9f2e53b47ce1
+│   ├── config
+│   ├── FETCH_HEAD
+│   ├── info
+│   │   └── exclude
+│   ├── hooks
+│   │   ├── push-to-checkout.sample
+│   │   ├── prepare-commit-msg.sample
+│   │   ├── pre-rebase.sample
+│   │   ├── fsmonitor-watchman.sample
+│   │   ├── post-update.sample
+│   │   ├── pre-push.sample
+│   │   ├── pre-commit.sample
+│   │   ├── applypatch-msg.sample
+│   │   ├── pre-merge-commit.sample
+│   │   ├── pre-receive.sample
+│   │   ├── pre-applypatch.sample
+│   │   ├── commit-msg.sample
+│   │   ├── sendemail-validate.sample
+│   │   └── update.sample
+│   ├── shallow
+│   ├── refs
+│   │   ├── heads
+│   │   │   └── main
+│   │   ├── remotes
+│   │   │   └── origin
+│   │   │       └── main
+│   │   └── tags
+│   ├── description
+│   ├── branches
+│   ├── logs
+│   │   ├── HEAD
+│   │   └── refs
+│   │       ├── heads
+│   │       │   └── main
+│   │       └── remotes
+│   │           └── origin
+│   │               └── main
+│   └── index
+├── fetch_sdss_images_conda
+│   ├── win-arm64
+│   │   └── fetch_sdss_images-0.0.1-py39_0.tar.bz2
+│   ├── osx-64
+│   │   └── fetch_sdss_images-0.0.1-py39_0.tar.bz2
+│   ├── linux-s390x
+│   │   └── fetch_sdss_images-0.0.1-py39_0.tar.bz2
+│   ├── meta.yaml
+│   ├── linux-armv7l
+│   │   └── fetch_sdss_images-0.0.1-py39_0.tar.bz2
+│   ├── List.txt
+│   ├── linux-armv6l
+│   │   └── fetch_sdss_images-0.0.1-py39_0.tar.bz2
+│   ├── osx-arm64
+│   │   └── fetch_sdss_images-0.0.1-py39_0.tar.bz2
+│   ├── linux-64
+│   │   └── fetch_sdss_images-0.0.1-py39_0.tar.bz2
+│   ├── linux-ppc64
+│   │   └── fetch_sdss_images-0.0.1-py39_0.tar.bz2
+│   ├── linux-aarch64
+│   │   └── fetch_sdss_images-0.0.1-py39_0.tar.bz2
+│   ├── win-32
+│   │   └── fetch_sdss_images-0.0.1-py39_0.tar.bz2
+│   ├── linux-32
+│   │   └── fetch_sdss_images-0.0.1-py39_0.tar.bz2
+│   ├── win-64
+│   │   └── fetch_sdss_images-0.0.1-py39_0.tar.bz2
+│   └── linux-ppc64le
+│       └── fetch_sdss_images-0.0.1-py39_0.tar.bz2
+├── dist
+│   └── fetch_sdss_images-0.0.1.tar.gz
+├── fetch_sdss_images.egg-info
+│   ├── PKG-INFO
+│   ├── dependency_links.txt
+│   ├── SOURCES.txt
+│   ├── top_level.txt
+│   └── requires.txt
+├── version.txt
+├── figures
+│   ├── Education_white_background.png
+│   ├── Fetch SDSS Images.png
+│   ├── Education_black_background.png
+│   ├── Fetch_SDSS_Images.png
+│   ├── NGC5750.jpg
+│   ├── PEP8-StyleGuide.jpg
+│   ├── Education_black_background-removebg.png
+│   └── Education,_Studying,_University,_Alumni_-_icon.png
+├── README.md
+├── src
+│   ├── python
+│   │   ├── download_image_sdss.py
+│   │   ├── 0266.51602.001.jpg
+│   │   ├── spec-1774-53759-272.jpg
+│   │   ├── spec-266-51602-1.jpg
+│   │   ├── spec-271-51883-293.jpg
+│   │   ├── __pycache__
+│   │   │   └── download_image_SDSS.cpython-39.pyc
+│   │   ├── objects.txt
+│   │   ├── __init__.py
+│   │   ├── test_filenoIDS.jpg
+│   │   ├── 1774.53759.272.jpg
+│   │   ├── NGC5750.jpg
+│   │   ├── 1627.53473.303.jpg
+│   │   ├── NGC3521.jpg
+│   │   ├── NGC1055.jpg
+│   │   ├── spec-1627-53473-303.jpg
+│   │   └── 0271.51883.293.jpg
+│   └── bash
+│       ├── download_image_SDSS_DR13.sh
+│       ├── download_image_SDSS_DR17.sh
+│       ├── 0266.51602.001.jpg
+│       ├── download_image_SDSS_DR12.sh
+│       ├── download_image_SDSS_DR14.sh
+│       ├── download_image_SDSS_DR10.sh
+│       ├── download_image_SDSS_DR7.sh
+│       ├── download_image_SDSS_DR16.sh
+│       ├── download_image_SDSS_DR15.sh
+│       ├── objects.txt
+│       ├── download_image_SDSS_DR8.sh
+│       ├── download_image_SDSS_DR9.sh
+│       ├── 1774.53759.272.jpg
+│       ├── download_image_SDSS_DR18.sh
+│       ├── download_image_SDSS_DR11.sh
+│       ├── 1627.53473.303.jpg
+│       └── 0271.51883.293.jpg
+├── .github
+│   └── workflows
+│       ├── main.yml
+│       └── pylint.yml
+└── build
+    └── lib
+        └── fetch_sdss_images
+            ├── download_image_sdss.py
+            └── __init__.py
+... length_limit, 1000, reached, counted:
+
+451 directories, 1118 files
+#################################################
+Generated with tree_colored @ 2023 - © Jean Gomes
+#################################################
+</pre>
+
+download_sdss_images.py is a python script, originally based on bash script.
+
+<hr>
+
+#### <b>ISSUES AND CONTRIBUTIONS</b>
+
+If you encounter any issues with this project, please feel free to submit an
+issue on the GitHub repository. We appreciate your feedback and are committed
+to improving the quality of our codebase.
+
+If you'd like to contribute to this project, we welcome pull requests from the
+community. Before submitting a pull request, please make sure to fork the
+repository and create a new branch for your changes. Once your changes are
+complete, submit a pull request and we'll review your code as soon as
+possible.
+
+For any questions or concerns about contributing, please contact the project
+maintainer at
+[antineutrinomuon@gmail.com](mailto:antineutrinomuon@gmail.com). Thank you for
+your interest in contributing to our project!
+
+<hr>
+
+#### <b>LICENSE</b>
+
+This software is provided "AS IS" (see DISCLAIMER below). Permission to use,
+for non-commercial purposes is granted. Permission to modify for personal or
+internal use is granted, provided this copyright and disclaimer are included
+in ALL copies of the software. All other rights are reserved. In particular,
+redistribution of the code is not allowed without explicit permission by the
+author.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
