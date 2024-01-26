@@ -23,7 +23,7 @@ last stable version: 0.0.1
 </a><br>
 <!-- [![DJANGO](https://www.djangoproject.com/m/img/badges/djangopowered126x54.gif)](https://www.djangoproject.com)<br>-->
 [![python3](https://img.shields.io/pypi/pyversions/fetch_sdss_images)](https://img.shields.io/pypi/pyversions/PyIntegral)
-[![badgetlicense](https://anaconda.org/neutrinomuon/fecth_sdss_images/badges/license.svg)](https://anaconda.org/neutrinomuon/fetch_sdss_images/badges/license.svg)
+[![badgetlicense](https://anaconda.org/neutrinomuon/fetch_sdss_images/badges/license.svg)](https://anaconda.org/neutrinomuon/fetch_sdss_images/badges/license.svg)
 
 <hr>
 
