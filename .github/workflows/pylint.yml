@@ -20,6 +20,9 @@ jobs:
         pip install pylint
         pip install tqdm
         pip install requests
-    - name: Analysing the code with pylint
+    - name: Analysing the code with pylint in main directory
       run: |
-        pylint $(git ls-files '*.py')
+        pylint setup.py
+    - name: Analysing the code with pylint in src/python directory
+      run: |
+        pylint $(git ls-files 'src/python/*.py')
