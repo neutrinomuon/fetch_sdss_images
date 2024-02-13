@@ -161,7 +161,6 @@ workspace
 │       ├── 0266.51602.001.jpg
 │       ├── NGC5145.jpg
 │       ├── spec-1774-53759-272.jpg
-│       ├── docstrings.py
 │       ├── spec-9999-999-9999.jpg
 │       ├── 0271.51883.293.jpg
 │       ├── spec-271-51883-293.jpg
@@ -191,31 +190,44 @@ workspace
 ├── version.txt
 ├── fetch_sdss_images_conda
 │   ├── linux-aarch64
+│   │   ├── fetch_sdss_images-0.0.2-py39_0.tar.bz2
 │   │   └── fetch_sdss_images-0.0.1-py39_0.tar.bz2
 │   ├── linux-armv6l
+│   │   ├── fetch_sdss_images-0.0.2-py39_0.tar.bz2
 │   │   └── fetch_sdss_images-0.0.1-py39_0.tar.bz2
 │   ├── linux-s390x
+│   │   ├── fetch_sdss_images-0.0.2-py39_0.tar.bz2
 │   │   └── fetch_sdss_images-0.0.1-py39_0.tar.bz2
 │   ├── meta.yaml
 │   ├── win-arm64
+│   │   ├── fetch_sdss_images-0.0.2-py39_0.tar.bz2
 │   │   └── fetch_sdss_images-0.0.1-py39_0.tar.bz2
 │   ├── linux-32
+│   │   ├── fetch_sdss_images-0.0.2-py39_0.tar.bz2
 │   │   └── fetch_sdss_images-0.0.1-py39_0.tar.bz2
 │   ├── linux-64
+│   │   ├── fetch_sdss_images-0.0.2-py39_0.tar.bz2
 │   │   └── fetch_sdss_images-0.0.1-py39_0.tar.bz2
 │   ├── win-32
+│   │   ├── fetch_sdss_images-0.0.2-py39_0.tar.bz2
 │   │   └── fetch_sdss_images-0.0.1-py39_0.tar.bz2
 │   ├── linux-armv7l
+│   │   ├── fetch_sdss_images-0.0.2-py39_0.tar.bz2
 │   │   └── fetch_sdss_images-0.0.1-py39_0.tar.bz2
 │   ├── linux-ppc64
+│   │   ├── fetch_sdss_images-0.0.2-py39_0.tar.bz2
 │   │   └── fetch_sdss_images-0.0.1-py39_0.tar.bz2
 │   ├── linux-ppc64le
+│   │   ├── fetch_sdss_images-0.0.2-py39_0.tar.bz2
 │   │   └── fetch_sdss_images-0.0.1-py39_0.tar.bz2
 │   ├── win-64
+│   │   ├── fetch_sdss_images-0.0.2-py39_0.tar.bz2
 │   │   └── fetch_sdss_images-0.0.1-py39_0.tar.bz2
 │   ├── osx-arm64
+│   │   ├── fetch_sdss_images-0.0.2-py39_0.tar.bz2
 │   │   └── fetch_sdss_images-0.0.1-py39_0.tar.bz2
 │   ├── osx-64
+│   │   ├── fetch_sdss_images-0.0.2-py39_0.tar.bz2
 │   │   └── fetch_sdss_images-0.0.1-py39_0.tar.bz2
 │   └── List.txt
 ├── .github
@@ -233,9 +245,9 @@ workspace
 │   ├── objects
 │   │   ├── info
 │   │   └── pack
-│   │       ├── pack-fa97c7887272fa4cd2607e2835c0060d0ae62f73.rev
-│   │       ├── pack-fa97c7887272fa4cd2607e2835c0060d0ae62f73.pack
-│   │       └── pack-fa97c7887272fa4cd2607e2835c0060d0ae62f73.idx
+│   │       ├── pack-88400186daf17e273b883219cb0f1ae4b050913e.idx
+│   │       ├── pack-88400186daf17e273b883219cb0f1ae4b050913e.rev
+│   │       └── pack-88400186daf17e273b883219cb0f1ae4b050913e.pack
 │   ├── info
 │   │   └── exclude
 │   ├── HEAD
@@ -282,7 +294,7 @@ workspace
             ├── __init__.py
             └── download_sdss_images.py
 
-47 directories (0 symlink), 114 files (5 symlink)
+47 directories (0 symlink), 126 files (5 symlink)
 #################################################
 Generated: treehue_colored @2024 - © Jean Gomes -
 #################################################
