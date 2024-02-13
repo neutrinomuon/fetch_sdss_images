@@ -8,4 +8,5 @@ fetch_sdss_images.egg-info/dependency_links.txt
 fetch_sdss_images.egg-info/requires.txt
 fetch_sdss_images.egg-info/top_level.txt
 src/python/__init__.py
-src/python/download_image_sdss.py
+src/python/docstrings.py
+src/python/download_sdss_images.py
