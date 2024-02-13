@@ -1,5 +1,5 @@
 {% set name = "fetch_sdss_images" %}
-{% set version = "0.0.1" %}
+{% set version = "0.0.2" %}
 {% set url = "https://files.pythonhosted.org/packages/source/" + name[0] + "/" + name + "/" + name + "-" + version + ".tar.gz" %}
 
 package:
@@ -9,7 +9,7 @@ package:
 source:
   fn: "{{ name }}-{{ version }}.tar.gz"
   url: "{{ url }}"
-  sha256: 46be3e8d69f88a5e1baea0d110ba21a4490344c4f9d5ee77223b92969f525fdf
+  sha256: d9d4ee3fafc85d1ba6112780bd84533ad157c40ed14ea23f93bffaac51e199d5
 
 build:
   number: 0

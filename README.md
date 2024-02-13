@@ -72,8 +72,8 @@ pip install fetch_sdss_images
 </pre>
 or by using a generated conda repository <a href='https://anaconda.org/neutrinomuon/fetch_sdss_images'>https://anaconda.org/neutrinomuon/fetch_sdss_images</a>:
 
-[![badgetanaconda](https://anaconda.org/neutrinomuon/PyIntegral/badges/version.svg)](https://anaconda.org/neutrinomuon/feych_sdss_images/badges/version.svg)
-[![badgetreleasedate](https://anaconda.org/neutrinomuon/PyIntegral/badges/latest_release_date.svg)](https://anaconda.org/neutrinomuon/fetch_sdss_images/badges/latest_release_date.svg)
+[![badgetanaconda](https://anaconda.org/neutrinomuon/fetch_sdss_images/badges/version.svg)](https://anaconda.org/neutrinomuon/fetch_sdss_images/badges/version.svg)
+[![badgetreleasedate](https://anaconda.org/neutrinomuon/fetch_sdss_images/badges/latest_release_date.svg)](https://anaconda.org/neutrinomuon/fetch_sdss_images/badges/latest_release_date.svg)
 [![badgetplatforms](https://anaconda.org/neutrinomuon/fetch_sdss_images/badges/platforms.svg
 )](https://anaconda.org/neutrinomuon/fetch_sdss_images/badges/platforms.svg)
 <pre>
